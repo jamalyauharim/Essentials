@@ -60,7 +60,7 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate, UITableVi
     }
     
     // MARK: Button Views
-    
+
     // setUpButton() : sets add button to HomeViewController.
     func setUpButton() {
         addButton = UIButton(frame: CGRect(x: 20, y: 650, width: Int(UIScreen.main.bounds.width - 40), height: 50))
